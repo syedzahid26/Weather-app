@@ -79,7 +79,7 @@ const WheatherApp = () => {
   }, []); // Empty dependency array means this effect runs once when the component mounts
 
   return <div className="container">
-    <div className="title">Wheather APP</div>
+    <div className="title">Weather APP</div>
     <div className="top-bar">
       <input type="text" className="cityInput" placeholder="Search" />
       <div className="search_icon" onClick={() => { search() }}>
